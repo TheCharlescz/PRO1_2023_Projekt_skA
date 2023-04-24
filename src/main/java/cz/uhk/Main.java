@@ -10,8 +10,8 @@ public class Main {
         System.out.println("Starting...");
 
         FileOperations io;
-        io = new JsonFileOperations();
-        //io = new CsvFileOperations();
+        //io = new JsonFileOperations();
+        io = new CsvFileOperations();
 
         MainFrame frame = new MainFrame(800,600, io);
     }
